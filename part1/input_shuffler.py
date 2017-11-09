@@ -14,23 +14,23 @@ def word_arr_to_str(words, delimeter):
 def file_to_list(filename):
 	f = open(filename)
 	text = f.readline()
-	wizard_list = str_to_word_arr(text, ' ')
+	lst = str_to_word_arr(text, ' ')
 	f.close()
-	return wizard_list
+	return lst
 
-def write_to_file(filename, count, list, mode='w'):
+def write_to_file(filename, count, lst, mode='w'):
 	f = open(filename, mode)
 	f.write(str(count) + "\n")
-	f.write(word_arr_to_str(list[:count], ' ') + '\n')
+	f.write(word_arr_to_str(lst[:count], ' ') + '\n')
 	f.close()
 
 if __name__ == '__main__':
-	wizard_list = file_to_list(WIZARD_LIST)
-	shuffle(wizard_list)
-	write_to_file(INPUT20, 20, wizard_list)
-	shuffle(wizard_list)
-	write_to_file(INPUT35, 35, wizard_list)
-	shuffle(wizard_list)
-	write_to_file(INPUT50, 50, wizard_list)
+	lst = file_to_list(WIZARD_LIST)
+	shuffle(lst)
+	write_to_file(INPUT20, 20, lst)
+	shuffle(lst)
+	write_to_file(INPUT35, 35, lst)
+	shuffle(lst)
+	write_to_file(INPUT50, 50, lst)
 
 
