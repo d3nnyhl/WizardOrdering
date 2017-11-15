@@ -27,9 +27,9 @@ def write_to_file(filename, count, lst, mode='w'):
 if __name__ == '__main__':
 	lst = file_to_list(WIZARD_LIST)
 	shuffle(lst)
-	write_to_file(INPUT20, 20, lst)
+	#write_to_file(INPUT20, 20, lst)
 	shuffle(lst)
-	write_to_file(INPUT35, 35, lst)
+	#write_to_file(INPUT35, 35, lst)
 	shuffle(lst)
 	write_to_file(INPUT50, 50, lst)
 
