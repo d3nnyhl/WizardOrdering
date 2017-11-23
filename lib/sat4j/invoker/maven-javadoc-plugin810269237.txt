@@ -1,0 +1,51 @@
+Invoking Maven for the goals: [org.apache.maven.plugins:maven-javadoc-plugin:2.7:javadoc] with no properties
+
+M2_HOME=/usr/local/Cellar/maven/3.5.2/libexec
+MAVEN_OPTS=null
+JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre
+JAVA_OPTS=null
+
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.ow2.sat4j:org.ow2.sat4j.pb:jar:2.3.6-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building SAT4J pseudo 2.3.6-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-javadoc-plugin:2.7:javadoc (default-cli) > generate-sources @ org.ow2.sat4j.pb >>>
+[INFO] Downloading from ow2-snapshot: http://repository.ow2.org/nexus/content/repositories/snapshots/org/ow2/sat4j/org.ow2.sat4j.core/2.3.6-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from ow2-snapshot: http://repository.ow2.org/nexus/content/repositories/snapshots/org/ow2/sat4j/org.ow2.sat4j.core/2.3.6-SNAPSHOT/maven-metadata.xml (1.4 kB at 708 B/s)
+[INFO] Downloading from ow2-snapshot: http://repository.ow2.org/nexus/content/repositories/snapshots/org/ow2/sat4j/org.ow2.sat4j.core/2.3.6-SNAPSHOT/org.ow2.sat4j.core-2.3.6-20171122.121612-78.pom
+[INFO] Downloaded from ow2-snapshot: http://repository.ow2.org/nexus/content/repositories/snapshots/org/ow2/sat4j/org.ow2.sat4j.core/2.3.6-SNAPSHOT/org.ow2.sat4j.core-2.3.6-20171122.121612-78.pom (2.2 kB at 3.2 kB/s)
+[INFO] Downloading from ow2-snapshot: http://repository.ow2.org/nexus/content/repositories/snapshots/org/ow2/sat4j/org.ow2.sat4j.core/2.3.6-SNAPSHOT/org.ow2.sat4j.core-2.3.6-20171122.121612-78.jar
+[INFO] Downloading from ow2-snapshot: http://repository.ow2.org/nexus/content/repositories/snapshots/org/ow2/sat4j/org.ow2.sat4j.core/2.3.6-SNAPSHOT/org.ow2.sat4j.core-2.3.6-20171122.121612-78-tests.jar
+[INFO] Downloaded from ow2-snapshot: http://repository.ow2.org/nexus/content/repositories/snapshots/org/ow2/sat4j/org.ow2.sat4j.core/2.3.6-SNAPSHOT/org.ow2.sat4j.core-2.3.6-20171122.121612-78.jar (407 kB at 268 kB/s)
+[INFO] Downloaded from ow2-snapshot: http://repository.ow2.org/nexus/content/repositories/snapshots/org/ow2/sat4j/org.ow2.sat4j.core/2.3.6-SNAPSHOT/org.ow2.sat4j.core-2.3.6-20171122.121612-78-tests.jar (123 kB at 74 kB/s)
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce-maven) @ org.ow2.sat4j.pb ---
+[INFO] 
+[INFO] <<< maven-javadoc-plugin:2.7:javadoc (default-cli) < generate-sources @ org.ow2.sat4j.pb <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-javadoc-plugin:2.7:javadoc (default-cli) @ org.ow2.sat4j.pb ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.320 s
+[INFO] Finished at: 2017-11-22T21:06:24-08:00
+[INFO] Final Memory: 15M/206M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-javadoc-plugin:2.7:javadoc (default-cli) on project org.ow2.sat4j.pb: An error has occurred in JavaDocs report generation:Unable to find javadoc command: The javadoc executable '/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/bin/javadoc' doesn't exist or is not a file. Verify the JAVA_HOME environment variable. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
