@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="solver">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/solver" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/solver/apidocs" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/solver" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/solver" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/solver" recursive="false" type="SOURCES" />
+  </library>
+</component>

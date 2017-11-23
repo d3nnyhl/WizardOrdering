@@ -1,0 +1,55 @@
+Invoking Maven for the goals: [org.apache.maven.plugins:maven-javadoc-plugin:2.7:javadoc] with no properties
+
+M2_HOME=/usr/local/Cellar/maven/3.5.2/libexec
+MAVEN_OPTS=null
+JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre
+JAVA_OPTS=null
+
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.ow2.sat4j:org.ow2.sat4j.csp:jar:2.3.6-SNAPSHOT
+[WARNING] 'dependencies.dependency.systemPath' for org.xcsp3:org.xcsp3.parser:jar should not point at files within the project directory, ${basedir}/../lib/xcsp3parser.jar will be unresolvable by dependent projects @ org.ow2.sat4j:org.ow2.sat4j.csp:[unknown-version], /Users/dennyhl/Desktop/SAT4J-master/org.sat4j.csp/pom.xml, line 48, column 37
+[WARNING] 'dependencies.dependency.systemPath' for org.xcsp3:org.xcsp3.utils:jar should not point at files within the project directory, ${basedir}/../lib/org.xcsp.tests-1.0.0-SNAPSHOT.jar will be unresolvable by dependent projects @ org.ow2.sat4j:org.ow2.sat4j.csp:[unknown-version], /Users/dennyhl/Desktop/SAT4J-master/org.sat4j.csp/pom.xml, line 55, column 37
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building SAT4J csp 2.3.6-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-javadoc-plugin:2.7:javadoc (default-cli) > generate-sources @ org.ow2.sat4j.csp >>>
+[INFO] Downloading from ow2-snapshot: http://repository.ow2.org/nexus/content/repositories/snapshots/org/ow2/sat4j/org.ow2.sat4j.csp.xmlparser/2.3.6-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from ow2-snapshot: http://repository.ow2.org/nexus/content/repositories/snapshots/org/ow2/sat4j/org.ow2.sat4j.csp.xmlparser/2.3.6-SNAPSHOT/maven-metadata.xml (1.4 kB at 932 B/s)
+[INFO] Downloading from ow2-snapshot: http://repository.ow2.org/nexus/content/repositories/snapshots/org/ow2/sat4j/org.ow2.sat4j.csp.xmlparser/2.3.6-SNAPSHOT/org.ow2.sat4j.csp.xmlparser-2.3.6-20171122.122535-81.pom
+[INFO] Downloaded from ow2-snapshot: http://repository.ow2.org/nexus/content/repositories/snapshots/org/ow2/sat4j/org.ow2.sat4j.csp.xmlparser/2.3.6-SNAPSHOT/org.ow2.sat4j.csp.xmlparser-2.3.6-20171122.122535-81.pom (524 B at 755 B/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/rhino/js/1.7R2/js-1.7R2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/rhino/js/1.7R2/js-1.7R2.pom (832 B at 6.1 kB/s)
+[INFO] Downloading from ow2-snapshot: http://repository.ow2.org/nexus/content/repositories/snapshots/org/ow2/sat4j/org.ow2.sat4j.csp.xmlparser/2.3.6-SNAPSHOT/org.ow2.sat4j.csp.xmlparser-2.3.6-20171122.122535-81.jar
+[INFO] Downloaded from ow2-snapshot: http://repository.ow2.org/nexus/content/repositories/snapshots/org/ow2/sat4j/org.ow2.sat4j.csp.xmlparser/2.3.6-SNAPSHOT/org.ow2.sat4j.csp.xmlparser-2.3.6-20171122.122535-81.jar (27 kB at 31 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/rhino/js/1.7R2/js-1.7R2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/rhino/js/1.7R2/js-1.7R2.jar (871 kB at 2.7 MB/s)
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce-maven) @ org.ow2.sat4j.csp ---
+[INFO] 
+[INFO] <<< maven-javadoc-plugin:2.7:javadoc (default-cli) < generate-sources @ org.ow2.sat4j.csp <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-javadoc-plugin:2.7:javadoc (default-cli) @ org.ow2.sat4j.csp ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.646 s
+[INFO] Finished at: 2017-11-22T21:06:43-08:00
+[INFO] Final Memory: 19M/303M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-javadoc-plugin:2.7:javadoc (default-cli) on project org.ow2.sat4j.csp: An error has occurred in JavaDocs report generation:Unable to find javadoc command: The javadoc executable '/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/bin/javadoc' doesn't exist or is not a file. Verify the JAVA_HOME environment variable. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
