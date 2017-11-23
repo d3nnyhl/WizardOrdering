@@ -8,5 +8,7 @@ import org.sat4j.specs.TimeoutException;
 
 
 public class WizardOrdering {
-
+    public static void main (String[] args) {
+        return;
+    }
 }

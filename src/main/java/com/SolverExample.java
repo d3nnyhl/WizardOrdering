@@ -1,4 +1,4 @@
-package main.java.com.wizardordering;
+package main.java.com;
 
 import org.sat4j.core.VecInt;
 import org.sat4j.minisat.SolverFactory;
@@ -9,7 +9,6 @@ import org.sat4j.specs.TimeoutException;
 
 public class SolverExample {
     public static void main(String [] args) {
-        System.out.println("Hello world");
         ISolver solver = SolverFactory.newDefault();
 
         final int MAXVAR = 3;
