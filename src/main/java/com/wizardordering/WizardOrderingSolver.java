@@ -23,7 +23,6 @@ public class WizardOrderingSolver {
     public WizardOrderingSolver(File inputFile) {
         this.solver = SolverFactory.newDefault();
         this.inputFile = inputFile;
-        //this.outFileName = outFileName;
         this.wizardSet = new HashSet<>();
         this.constraintSet = new HashSet<>();
         this.readInput();
@@ -38,7 +37,6 @@ public class WizardOrderingSolver {
             this.numWizards = 0;
             this.numConstraints = 0;
         }
-
     }
 
 
