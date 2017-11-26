@@ -3,8 +3,13 @@
     <CLASSES>
       <root url="file://$PROJECT_DIR$/lib/sat4j" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/lib/sat4j/apidocs" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/lib/sat4j" />
+    </SOURCES>
     <jarDirectory url="file://$PROJECT_DIR$/lib/sat4j" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/sat4j" recursive="false" type="SOURCES" />
   </library>
 </component>
