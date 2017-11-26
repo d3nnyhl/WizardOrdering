@@ -3,6 +3,8 @@ package main.java.com.wizardordering;
 import com.google.common.collect.BiMap;
 import com.google.common.collect.HashBiMap;
 import edu.princeton.cs.algs4.Stopwatch;
+import edu.princeton.cs.algs4.Digraph;
+import edu.princeton.cs.algs4.Topological;
 import org.junit.Assert;
 import org.sat4j.core.VecInt;
 import org.sat4j.minisat.SolverFactory;
@@ -10,6 +12,7 @@ import org.sat4j.specs.ContradictionException;
 import org.sat4j.specs.IProblem;
 import org.sat4j.specs.ISolver;
 import org.sat4j.specs.TimeoutException;
+import scala.Int;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -30,6 +33,7 @@ public class WizardOrderingSolver {
     private List<int[]> clausesByConstraints;
     private List<int[]> clausesByImplication;
     private int[] assignments;
+    private String[] solution;
 
     // For statistics
     private int numConstraints;
@@ -243,9 +247,12 @@ public class WizardOrderingSolver {
 
     /**
      * PostProcessing method.
-     * Builds a Directed Acyclic Graph and topological sorts the wizards.
+     * Builds a Directed Acyclic Graph and topologically sorts the wizards.
      */
     public void postProcess() {
+        Digraph dag = this.generateWizardGraph();
+        Topological topo = this.generateToplogicalOrdering(dag);
+        this.generateSolution(topo);
         this.printStatistics();
     }
 
@@ -255,6 +262,76 @@ public class WizardOrderingSolver {
                 System.out.print(this.assignments[i] + " ");
             }
             System.out.print("\n");
+            System.out.println(Arrays.toString(this.solution));
+        }
+    }
+
+    /**
+     * Constructs a Directed Acyclic Graph given the wizard assignments.
+     * Following variant holds: +(A, B) == -(B, A) <=> age(A) < age(B)
+     *                          -(A, B) == +(B, A) <=> age(A) > age(B)
+     * Direction of edges: if age(A) < age(B), A -> B and vice-versa.
+     * @return Digraph
+     */
+    private Digraph generateWizardGraph() {
+        Digraph dag = new Digraph(this.wizardSet.size());
+
+        for (int assignment : this.assignments) {
+            int[] orderedWizardPair = generateOrderedWizardPair(assignment);
+            dag.addEdge(orderedWizardPair[0] - 1, orderedWizardPair[1] - 1);
+        }
+
+        return dag;
+    }
+
+    /**
+     * Given an assignment, returns the correct ordering of wizards,
+     * i.e. if assignment = -1 with pair [A, B], then return [B, A] since age(A) > age(B).
+     * @param assignment
+     * @return int[] ordered pairing of wizards
+     */
+    private int[] generateOrderedWizardPair(int assignment) {
+        int[] result = new int[2];
+        List<Integer> pair;
+        int i = 0, j = 1;
+
+        if (assignment > 0) {
+            pair = this.varIdToWizID.get(assignment);
+        } else {
+            pair = this.varIdToWizID.get(assignment * -1);
+            i = 1;
+            j = 0;
+        }
+
+        result[i] = pair.get(0);
+        result[j] = pair.get(1);
+        return result;
+    }
+
+    /**
+     * Given a Directed Acyclic Graph, returns a Topological ordering.
+     * @param dag
+     * @return Topological
+     */
+    private Topological generateToplogicalOrdering(Digraph dag) {
+        return new Topological(dag);
+    }
+
+    /**
+     * Given a Topological ordering, generates an ordering of wizard names.
+     * @param topo
+     */
+    private void generateSolution(Topological topo) {
+        if (!topo.hasOrder()) return;
+
+        this.solution = new String[this.wizardSet.size()];
+        Iterator<Integer> iter = topo.order().iterator();
+        int i = 0;
+
+        while (iter.hasNext()) {
+            String wizard = this.wizIdToName.get(iter.next() + 1);
+            this.solution[i] = wizard;
+            i++;
         }
     }
 

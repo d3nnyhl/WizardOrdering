@@ -60,7 +60,7 @@ public class WizardOrdering {
     public static void main (String[] args) {
         start();
         solveAll();
-        startStaffFiles();
-        solveAllStaff();
+//        startStaffFiles();
+//        solveAllStaff();
     }
 }
