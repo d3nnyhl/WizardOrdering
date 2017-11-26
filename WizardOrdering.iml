@@ -10,5 +10,6 @@
     <orderEntry type="library" name="javalib" level="project" />
     <orderEntry type="library" name="omp4j" level="project" />
     <orderEntry type="library" name="sat4j" level="project" />
+    <orderEntry type="library" name="guava" level="project" />
   </component>
 </module>
