@@ -249,6 +249,15 @@ public class WizardOrderingSolver {
         this.printStatistics();
     }
 
+    public void printAssignments() {
+        if (getFileName().equals("input5.in")) {
+            for (int i = 0; i < this.assignments.length; i++) {
+                System.out.print(this.assignments[i] + " ");
+            }
+            System.out.print("\n");
+        }
+    }
+
     /**
      * Prints useful statistics.
      */
@@ -258,6 +267,7 @@ public class WizardOrderingSolver {
         System.out.println("Number of variables: " + this.varIdToWizID.size());
         System.out.println("Number of clauses by constraints: " + this.clausesByConstraints.size());
         System.out.println("Number of clauses by implication: " + this.clausesByImplication.size());
+        printAssignments();
         System.out.println("Running time: " + this.elapsedTime + "s\n");
     }
 }

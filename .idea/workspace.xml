@@ -2,883 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57ea3eb3-0f44-42cd-b4a0-f0787ef07cb9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/allclasses-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/allclasses-noframe.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/constant-values.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/deprecated-list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/help-doc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/index-all.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/AbstractLauncher.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/AbstractOptimizationLauncher.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/BasicLauncher.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/ExitCode.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/ILauncherMode.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/LightFactory.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/MUSLauncher.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/Messages.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/class-use/AbstractLauncher.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/class-use/AbstractOptimizationLauncher.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/class-use/BasicLauncher.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/class-use/ExitCode.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/class-use/ILauncherMode.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/class-use/LightFactory.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/class-use/MUSLauncher.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/class-use/Messages.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/core/ASolverFactory.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/core/ConstrGroup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/core/DefaultComparator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/core/LiteralsUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/core/ReadOnlyVec.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/core/ReadOnlyVecInt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/core/Vec.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/core/VecInt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/core/class-use/ASolverFactory.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/core/class-use/ConstrGroup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/core/class-use/DefaultComparator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/core/class-use/LiteralsUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/core/class-use/ReadOnlyVec.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/core/class-use/ReadOnlyVecInt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/core/class-use/Vec.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/core/class-use/VecInt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/core/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/core/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/core/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/core/package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/SolverFactory.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/class-use/SolverFactory.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/AbstractCardinalityDataStructure.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/AbstractDataStructureFactory.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/CardinalityDataStructure.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/CardinalityDataStructureYanMax.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/CardinalityDataStructureYanMin.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/ClausalDataStructureWL.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/MixedDataStructureDanielHT.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/MixedDataStructureDanielWL.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/MixedDataStructureDanielWLConciseBinary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/MixedDataStructureSingleWL.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/card/AtLeast.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/card/MaxWatchCard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/card/MinWatchCard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/card/class-use/AtLeast.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/card/class-use/MaxWatchCard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/card/class-use/MinWatchCard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/card/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/card/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/card/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/card/package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/class-use/AbstractCardinalityDataStructure.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/class-use/AbstractDataStructureFactory.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/class-use/CardinalityDataStructure.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/class-use/CardinalityDataStructureYanMax.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/class-use/CardinalityDataStructureYanMin.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/class-use/ClausalDataStructureWL.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/class-use/MixedDataStructureDanielHT.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/class-use/MixedDataStructureDanielWL.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/class-use/MixedDataStructureDanielWLConciseBinary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/class-use/MixedDataStructureSingleWL.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/BinaryClause.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/BinaryClauses.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/CBClause.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/Clauses.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/HTClause.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/LearntBinaryClause.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/LearntHTClause.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/LearntWLClause.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/Lits.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/OriginalBinaryClause.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/OriginalHTClause.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/OriginalWLClause.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/UnitClause.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/UnitClauses.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/WLClause.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/class-use/BinaryClause.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/class-use/BinaryClauses.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/class-use/CBClause.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/class-use/Clauses.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/class-use/HTClause.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/class-use/LearntBinaryClause.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/class-use/LearntHTClause.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/class-use/LearntWLClause.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/class-use/Lits.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/class-use/OriginalBinaryClause.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/class-use/OriginalHTClause.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/class-use/OriginalWLClause.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/class-use/UnitClause.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/class-use/UnitClauses.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/class-use/WLClause.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/cnf/package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/xor/Xor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/xor/class-use/Xor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/xor/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/xor/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/xor/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/constraints/xor/package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/ActivityComparator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/CircularBuffer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/ConflictTimer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/ConflictTimerAdapter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/ConflictTimerContainer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/Counter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/CounterBasedPrimeImplicantStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/DataStructureFactory.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/Heap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/ICDCL.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/ILits.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/IOrder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/IPhaseSelectionStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/ISimplifier.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/IntQueue.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/LearnedConstraintsDeletionStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/LearnedConstraintsEvaluationType.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/Learner.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/LearningStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/Pair.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/PrimeImplicantStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/QuadraticPrimeImplicantStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/RestartStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/SearchParams.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/SimplificationType.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/SizeComparator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/Solver.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/SolverStats.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/Undoable.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/VarActivityListener.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/WatcherBasedPrimeImplicantStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/ActivityComparator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/CircularBuffer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/ConflictTimer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/ConflictTimerAdapter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/ConflictTimerContainer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/Counter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/CounterBasedPrimeImplicantStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/DataStructureFactory.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/Heap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/ICDCL.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/ILits.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/IOrder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/IPhaseSelectionStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/ISimplifier.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/IntQueue.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/LearnedConstraintsDeletionStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/LearnedConstraintsEvaluationType.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/Learner.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/LearningStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/Pair.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/PrimeImplicantStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/QuadraticPrimeImplicantStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/RestartStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/SearchParams.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/SimplificationType.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/SizeComparator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/Solver.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/SolverStats.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/Undoable.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/VarActivityListener.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/class-use/WatcherBasedPrimeImplicantStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/core/package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/learning/ActiveLearning.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/learning/ClauseOnlyLearning.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/learning/FixedLengthLearning.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/learning/LimitedLearning.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/learning/MiniSATLearning.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/learning/NoLearningButHeuristics.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/learning/NoLearningNoHeuristics.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/learning/PercentLengthLearning.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/learning/class-use/ActiveLearning.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/learning/class-use/ClauseOnlyLearning.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/learning/class-use/FixedLengthLearning.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/learning/class-use/LimitedLearning.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/learning/class-use/MiniSATLearning.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/learning/class-use/NoLearningButHeuristics.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/learning/class-use/NoLearningNoHeuristics.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/learning/class-use/PercentLengthLearning.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/learning/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/learning/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/learning/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/learning/package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/ActivityBasedVariableComparator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/LevelAndActivityVariableComparator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/LevelBasedVarOrderHeap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/NegativeLiteralSelectionStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/PhaseCachingAutoEraseStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/PhaseInLastLearnedClauseSelectionStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/PositiveLiteralSelectionStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/PureOrder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/RSATLastLearnedClausesPhaseSelectionStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/RSATPhaseSelectionStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/RandomLiteralSelectionStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/RandomWalkDecorator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/SubsetVarOrder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/TabuListDecorator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/UserFixedPhaseSelectionStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/VarOrderHeap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/VariableComparator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/class-use/ActivityBasedVariableComparator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/class-use/LevelAndActivityVariableComparator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/class-use/LevelBasedVarOrderHeap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/class-use/NegativeLiteralSelectionStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/class-use/PhaseCachingAutoEraseStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/class-use/PhaseInLastLearnedClauseSelectionStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/class-use/PositiveLiteralSelectionStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/class-use/PureOrder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/class-use/RSATLastLearnedClausesPhaseSelectionStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/class-use/RSATPhaseSelectionStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/class-use/RandomLiteralSelectionStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/class-use/RandomWalkDecorator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/class-use/SubsetVarOrder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/class-use/TabuListDecorator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/class-use/UserFixedPhaseSelectionStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/class-use/VarOrderHeap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/class-use/VariableComparator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/orders/package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/restarts/ArminRestarts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/restarts/EMARestarts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/restarts/FixedPeriodRestarts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/restarts/Glucose21Restarts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/restarts/LubyRestarts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/restarts/MiniSATRestarts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/restarts/NoRestarts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/restarts/class-use/ArminRestarts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/restarts/class-use/EMARestarts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/restarts/class-use/FixedPeriodRestarts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/restarts/class-use/Glucose21Restarts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/restarts/class-use/LubyRestarts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/restarts/class-use/MiniSATRestarts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/restarts/class-use/NoRestarts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/restarts/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/restarts/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/restarts/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/minisat/restarts/package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/opt/AbstractSelectorVariablesDecorator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/opt/MaxSatDecorator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/opt/MinOneDecorator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/opt/class-use/AbstractSelectorVariablesDecorator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/opt/class-use/MaxSatDecorator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/opt/class-use/MinOneDecorator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/opt/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/opt/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/opt/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/opt/package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/reader/AAGReader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/reader/AIGReader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/reader/DimacsReader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/reader/EfficientScanner.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/reader/GroupedCNFReader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/reader/InstanceReader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/reader/JSONReader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/reader/LecteurDimacs.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/reader/ParseFormatException.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/reader/Reader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/reader/class-use/AAGReader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/reader/class-use/AIGReader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/reader/class-use/DimacsReader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/reader/class-use/EfficientScanner.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/reader/class-use/GroupedCNFReader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/reader/class-use/InstanceReader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/reader/class-use/JSONReader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/reader/class-use/LecteurDimacs.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/reader/class-use/ParseFormatException.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/reader/class-use/Reader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/reader/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/reader/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/reader/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/reader/package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/Constr.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/ContradictionException.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/IConstr.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/IGroupSolver.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/ILogAble.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/IOptimizationProblem.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/IProblem.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/ISolver.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/ISolverService.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/IVec.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/IVecInt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/IteratorInt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/Lbool.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/MandatoryLiteralListener.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/Propagatable.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/RandomAccessModel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/SearchListener.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/TimeoutException.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/UnitClauseProvider.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/UnitPropagationListener.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/VarMapper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/class-use/Constr.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/class-use/ContradictionException.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/class-use/IConstr.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/class-use/IGroupSolver.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/class-use/ILogAble.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/class-use/IOptimizationProblem.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/class-use/IProblem.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/class-use/ISolver.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/class-use/ISolverService.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/class-use/IVec.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/class-use/IVecInt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/class-use/IteratorInt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/class-use/Lbool.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/class-use/MandatoryLiteralListener.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/class-use/Propagatable.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/class-use/RandomAccessModel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/class-use/SearchListener.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/class-use/TimeoutException.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/class-use/UnitClauseProvider.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/class-use/UnitPropagationListener.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/class-use/VarMapper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/specs/package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/AbstractClauseSelectorSolver.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/AbstractMinimalModel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/AbstractOutputSolver.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/AllMUSes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/Backbone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/CheckMUSSolutionListener.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/ClausalCardinalitiesDecorator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/ConflictDepthTracing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/ConflictLevelTracing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/DecisionLevelTracing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/DecisionTracing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/DimacsArrayReader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/DimacsOutputSolver.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/DimacsStringSolver.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/DotSearchTracing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/EmptySolver.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/ExtendedDimacsArrayReader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/FileBasedVisualizationTool.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/FullClauseSelectorSolver.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/GateTranslator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/GroupClauseSelectorSolver.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/HeuristicsTracing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/IBackboneProgressListener.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/IVisualizationTool.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/LBDTracing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/LearnedClauseSizeTracing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/LearnedClausesSizeTracing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/LearnedTracing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/LexicoDecorator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/ManyCore.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/Minimal4CardinalityModel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/Minimal4InclusionModel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/ModelIterator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/ModelIteratorToSATAdapter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/MultiTracing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/NegationDecorator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/OptToSatAdapter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/OutcomeListener.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/RemiUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/RupSearchListener.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/SearchEnumeratorListener.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/SearchListenerAdapter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/SearchMinOneListener.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/SingleSolutionDetector.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/SolutionCounter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/SolutionFoundListener.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/SolverDecorator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/SpeedTracing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/StatisticsSolver.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/SubModelIterator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/TextOutputTracing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/AbstractClauseSelectorSolver.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/AbstractMinimalModel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/AbstractOutputSolver.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/AllMUSes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/Backbone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/CheckMUSSolutionListener.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/ClausalCardinalitiesDecorator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/ConflictDepthTracing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/ConflictLevelTracing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/DecisionLevelTracing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/DecisionTracing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/DimacsArrayReader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/DimacsOutputSolver.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/DimacsStringSolver.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/DotSearchTracing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/EmptySolver.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/ExtendedDimacsArrayReader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/FileBasedVisualizationTool.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/FullClauseSelectorSolver.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/GateTranslator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/GroupClauseSelectorSolver.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/HeuristicsTracing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/IBackboneProgressListener.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/IVisualizationTool.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/LBDTracing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/LearnedClauseSizeTracing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/LearnedClausesSizeTracing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/LearnedTracing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/LexicoDecorator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/ManyCore.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/Minimal4CardinalityModel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/Minimal4InclusionModel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/ModelIterator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/ModelIteratorToSATAdapter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/MultiTracing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/NegationDecorator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/OptToSatAdapter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/OutcomeListener.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/RemiUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/RupSearchListener.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/SearchEnumeratorListener.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/SearchListenerAdapter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/SearchMinOneListener.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/SingleSolutionDetector.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/SolutionCounter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/SolutionFoundListener.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/SolverDecorator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/SpeedTracing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/StatisticsSolver.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/SubModelIterator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/class-use/TextOutputTracing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/encoding/Binary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/encoding/Binomial.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/encoding/Commander.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/encoding/EncodingStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/encoding/EncodingStrategyAdapter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/encoding/Ladder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/encoding/Policy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/encoding/Product.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/encoding/Sequential.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/encoding/class-use/Binary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/encoding/class-use/Binomial.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/encoding/class-use/Commander.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/encoding/class-use/EncodingStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/encoding/class-use/EncodingStrategyAdapter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/encoding/class-use/Ladder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/encoding/class-use/Policy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/encoding/class-use/Product.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/encoding/class-use/Sequential.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/encoding/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/encoding/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/encoding/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/encoding/package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/xplain/DeletionStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/xplain/Explainer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/xplain/HighLevelXplain.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/xplain/InsertionStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/xplain/MinimizationStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/xplain/QuickXplain2001Strategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/xplain/QuickXplainStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/xplain/Xplain.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/xplain/class-use/DeletionStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/xplain/class-use/Explainer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/xplain/class-use/HighLevelXplain.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/xplain/class-use/InsertionStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/xplain/class-use/MinimizationStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/xplain/class-use/QuickXplain2001Strategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/xplain/class-use/QuickXplainStrategy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/xplain/class-use/Xplain.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/xplain/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/xplain/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/xplain/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/org/sat4j/tools/xplain/package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/overview-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/overview-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/overview-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/package-list" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/serialized-form.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/apidocs/stylesheet.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/AbstractLauncher$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/AbstractLauncher$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/AbstractLauncher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/AbstractOptimizationLauncher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/BasicLauncher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/DecisionMode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/ExitCode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/ILauncherMode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/LightFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/MUSLauncher$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/MUSLauncher$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/MUSLauncher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/Messages.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/OptimizationMode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/core/ASolverFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/core/ConstrGroup.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/core/DefaultComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/core/EmptyVecInt$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/core/EmptyVecInt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/core/LiteralsUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/core/ReadOnlyVec.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/core/ReadOnlyVecInt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/core/Vec$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/core/Vec.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/core/VecInt$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/core/VecInt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/core/package-info.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/SolverFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/AbstractCardinalityDataStructure.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/AbstractDataStructureFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/CardinalityDataStructure.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/CardinalityDataStructureYanMax.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/CardinalityDataStructureYanMin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/ClausalDataStructureWL.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/MixedDataStructureDanielHT.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/MixedDataStructureDanielWL.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/MixedDataStructureDanielWLConciseBinary.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/MixedDataStructureSingleWL.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/card/AtLeast.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/card/MaxWatchCard.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/card/MinWatchCard.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/card/package-info.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/cnf/BinaryClause.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/cnf/BinaryClauses.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/cnf/CBClause.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/cnf/Clauses.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/cnf/HTClause.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/cnf/LearntBinaryClause.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/cnf/LearntHTClause.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/cnf/LearntWLClause.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/cnf/Lits.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/cnf/OriginalBinaryClause.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/cnf/OriginalHTClause.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/cnf/OriginalWLClause.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/cnf/UnitClause.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/cnf/UnitClauses.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/cnf/WLClause.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/cnf/package-info.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/package-info.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/constraints/xor/Xor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/ActivityComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/ActivityLCDS.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/ActivityListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/AgeLCDS.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/CircularBuffer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/ConflictTimer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/ConflictTimerAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/ConflictTimerContainer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/ConstrActivityListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/Counter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/CounterBasedPrimeImplicantStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/DataStructureFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/Glucose2LCDS.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/GlucoseLCDS.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/Heap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/ICDCL.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/ILits.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/IOrder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/IPhaseSelectionStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/ISimplifier.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/IntQueue.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/LBDConflictTimer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/LearnedConstraintsDeletionStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/LearnedConstraintsEvaluationType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/Learner.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/LearningStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/MemoryBasedConflictTimer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/Pair.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/PrimeImplicantStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/QuadraticPrimeImplicantStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/RestartStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/SearchParams.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/SimplificationType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/SizeComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/SizeLCDS.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/Solver$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/Solver$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/Solver$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/Solver$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/Solver$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/Solver$6$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/Solver$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/Solver$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/Solver$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/Solver$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/Solver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/SolverStats.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/Undoable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/VarActivityListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/VoidTracing.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/WatcherBasedPrimeImplicantStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/core/package-info.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/learning/AbstractLearning.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/learning/ActiveLearning.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/learning/ClauseOnlyLearning.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/learning/FixedLengthLearning.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/learning/LimitedLearning.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/learning/MiniSATLearning.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/learning/NoLearningButHeuristics.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/learning/NoLearningNoHeuristics.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/learning/PercentLengthLearning.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/learning/package-info.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/orders/AbstractPhaserecordingSelectionStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/orders/ActivityBasedVariableComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/orders/LevelAndActivityVariableComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/orders/LevelBasedVarOrderHeap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/orders/NegativeLiteralSelectionStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/orders/PhaseCachingAutoEraseStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/orders/PhaseInLastLearnedClauseSelectionStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/orders/PositiveLiteralSelectionStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/orders/PureOrder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/orders/RSATLastLearnedClausesPhaseSelectionStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/orders/RSATPhaseSelectionStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/orders/RandomLiteralSelectionStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/orders/RandomWalkDecorator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/orders/SubsetVarOrder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/orders/TabuListDecorator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/orders/UserFixedPhaseSelectionStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/orders/ValuedLit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/orders/VarOrderHeap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/orders/VariableComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/orders/package-info.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/package-info.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/restarts/ArminRestarts.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/restarts/EMARestarts.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/restarts/FixedPeriodRestarts.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/restarts/Glucose21Restarts.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/restarts/LubyRestarts.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/restarts/MiniSATRestarts.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/restarts/NoRestarts.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/minisat/restarts/package-info.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/opt/AbstractSelectorVariablesDecorator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/opt/MaxSatDecorator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/opt/MinOneDecorator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/opt/package-info.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/package-info.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/reader/AAGReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/reader/AIGReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/reader/DimacsReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/reader/EfficientScanner.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/reader/GroupedCNFReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/reader/InstanceReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/reader/JSONReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/reader/LecteurDimacs.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/reader/ParseFormatException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/reader/Reader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/reader/package-info.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/specs/Constr$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/specs/Constr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/specs/ContradictionException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/specs/IConstr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/specs/IGroupSolver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/specs/ILogAble$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/specs/ILogAble.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/specs/IOptimizationProblem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/specs/IProblem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/specs/ISolver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/specs/ISolverService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/specs/IVec.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/specs/IVecInt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/specs/IteratorInt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/specs/Lbool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/specs/MandatoryLiteralListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/specs/Propagatable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/specs/RandomAccessModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/specs/SearchListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/specs/TimeoutException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/specs/UnitClauseProvider$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/specs/UnitClauseProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/specs/UnitPropagationListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/specs/VarMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/specs/package-info.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/AbstractClauseSelectorSolver$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/AbstractClauseSelectorSolver$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/AbstractClauseSelectorSolver$SelectorState.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/AbstractClauseSelectorSolver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/AbstractMinimalModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/AbstractOutputSolver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/AllMUSes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/Backbone$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/Backbone$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/Backbone$Backboner.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/Backbone.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/CheckMUSSolutionListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/ClausalCardinalitiesDecorator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/ConflictDepthTracing.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/ConflictLevelTracing.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/DecisionLevelTracing.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/DecisionTracing.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/DimacsArrayReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/DimacsOutputSolver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/DimacsStringSolver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/DotSearchTracing.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/EmptySolver$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/EmptySolver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/ExtendedDimacsArrayReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/FileBasedVisualizationTool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/FullClauseSelectorSolver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/GateTranslator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/GroupClauseSelectorSolver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/HeuristicsTracing.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/IBackboneProgressListener$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/IBackboneProgressListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/IVisualizationTool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/LBDTracing.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/LearnedClauseSizeTracing.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/LearnedClausesSizeTracing.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/LearnedTracing.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/LexicoDecorator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/ManyCore.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/Minimal4CardinalityModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/Minimal4InclusionModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/ModelIterator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/ModelIteratorToSATAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/MultiTracing.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/NegationDecorator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/OptToSatAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/OutcomeListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/RemiUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/RunnableSolver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/RupSearchListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/SearchEnumeratorListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/SearchListenerAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/SearchMinOneListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/SingleSolutionDetector.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/SolutionCounter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/SolutionFoundListener$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/SolutionFoundListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/SolverDecorator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/SpeedTracing.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/StatisticsSolver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/SubModelIterator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/TextOutputTracing.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/encoding/Binary.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/encoding/Binomial.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/encoding/Commander.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/encoding/EncodingStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/encoding/EncodingStrategyAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/encoding/Ladder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/encoding/Policy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/encoding/Product.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/encoding/Sequential.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/encoding/package-info.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/package-info.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/xplain/DeletionStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/xplain/Explainer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/xplain/HighLevelXplain.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/xplain/InsertionStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/xplain/MinimizationStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/xplain/QuickXplain2001Strategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/xplain/QuickXplainStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/xplain/Xplain.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/org/sat4j/tools/xplain/package-info.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/classes/sat4j.version" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/invoker/maven-javadoc-plugin1349747622.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/invoker/maven-javadoc-plugin1833262233.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/invoker/maven-javadoc-plugin340238951.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/invoker/maven-javadoc-plugin541648470.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/invoker/maven-javadoc-plugin810269237.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/AbstractXplainTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/BugSAT107.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/BugSAT109.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/BugSAT117ModelIterator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/BugSAT118.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/BugSAT139.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/BugSAT17.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/BugSAT18.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/BugSAT25.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/BugSAT26.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/BugSAT34.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/BugSAT37.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/BugSAT43.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/BugSAT50.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/BugSAT79.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/BugSAT81.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/BugSAT95.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/ModelIteratorTest$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/ModelIteratorTest$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/ModelIteratorTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/SingleSolutionTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/TestConstrGroup.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/TestDeletionXplain.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/TestFreeId.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/TestInsertionXplain.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/TestQuickXplain.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/TestQuickXplain2001.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/TestSatAssumps.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/TestSolverEngine.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/core/JsonReaderTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/core/VecTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/AbstractAcceptanceTestCase.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/AbstractM2Test.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/AllTests.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/GenericM2Test.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/M2AtLeastTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/M2BackjumpingTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/M2CardMaxYannTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/M2CardMinYannTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/M2MiniLearningTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/M2MiniSATTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/TestAssertion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/TestLubyFunction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/TestsFonctionnels.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/VarOrderTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/constraints/LitTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/constraints/TestXor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/core/Bug275101.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/core/BugFatih.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/core/BugFatih2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/core/BugReset.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/core/BugSAT117.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/core/BugThomas.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/core/BugTrivialAssumption.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/core/CircularBufferTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/core/HeapLevelTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/core/HeapTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/core/LboolTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/core/LevelBasedVarOrderTest$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/core/LevelBasedVarOrderTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/core/QueueTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/core/TestAtMost.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/core/TestGroupedTimeoutModelEnumeration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/core/TestMaxSatDecorator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/core/TestPrimeComputation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/minisat/core/TestSizeComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/tools/BackboneTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/tools/NegationDecoratorTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/tools/RemiUtilsTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/tools/TestAllMSSes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/tools/TestAllMUSes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/tools/TestAllMUSesAndCheckTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/tools/TestAllMUSesGroupTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/tools/TestCheckItIsAMUS.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/tools/TestClausalCardinalitiesBinaryEncoding.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/tools/TestClausalCardinalitiesBinomialEncoding.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/tools/TestClausalCardinalitiesCommanderEncoding.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/tools/TestClausalCardinalitiesLadderEncoding.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/tools/TestClausalCardinalitiesProductEncoding.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/tools/TestClausalCardinalitiesSequentialEncoding.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/test-classes/org/sat4j/tools/TestGateTranslator.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WizardOrdering/main/java/com/wizardordering/WizardOrderingSolver.class" afterPath="$PROJECT_DIR$/out/production/WizardOrdering/main/java/com/wizardordering/WizardOrderingSolver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/sat4j.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sat4j.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WizardOrdering.iml" afterPath="$PROJECT_DIR$/WizardOrdering.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wizardordering/WizardOrdering.java" afterPath="$PROJECT_DIR$/src/main/java/com/wizardordering/WizardOrdering.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wizardordering/WizardOrderingSolver.java" afterPath="$PROJECT_DIR$/src/main/java/com/wizardordering/WizardOrderingSolver.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -891,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WizardOrdering.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WizardOrdering.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wizardordering/WizardOrdering.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="51" column="58" lean-forward="false" selection-start-line="51" selection-start-column="58" selection-end-line="51" selection-end-column="58" />
+            <state relative-caret-position="945">
+              <caret line="63" column="24" lean-forward="true" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -903,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WizardOrderingSolver.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WizardOrderingSolver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wizardordering/WizardOrderingSolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3118">
-              <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+            <state relative-caret-position="399">
+              <caret line="271" column="5" lean-forward="true" selection-start-line="271" selection-start-column="5" selection-end-line="271" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1775#1776#0" expanded="true" />
@@ -954,8 +77,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/SolverExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wizardordering/Variable.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wizardordering/WizardVariable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wizardordering/WizardOrderingSolver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wizardordering/WizardOrdering.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wizardordering/WizardOrderingSolver.java" />
       </list>
     </option>
   </component>
@@ -1008,21 +131,6 @@
               <item name="WizardOrdering" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WizardOrdering" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WizardOrdering" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="wizardordering" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WizardOrdering" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WizardOrdering" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1046,9 +154,7 @@
               <item name="WizardOrdering" type="b2602c69:ProjectViewProjectNode" />
               <item name="WizardOrdering" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Staff_Inputs" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WizardOrdering" type="b2602c69:ProjectViewProjectNode" />
@@ -1262,7 +368,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36335078" sideWeight="0.50238097" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32460734" sideWeight="0.49761903" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32460734" sideWeight="0.49761903" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Style Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1273,7 +379,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3790576" sideWeight="0.49761903" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3790576" sideWeight="0.49761903" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1317,7 +423,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="25" />
+      <option name="time" value="26" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1484,20 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wizardordering/WizardOrderingSolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3118">
-          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1775#1776#0" expanded="true" />
-            <element signature="e#1822#1823#0" expanded="true" />
-            <element signature="e#9201#9202#0" expanded="true" />
-            <element signature="e#9239#9240#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wizardordering/WizardVariable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1508,10 +600,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wizardordering/WizardOrdering.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="51" column="58" lean-forward="false" selection-start-line="51" selection-start-column="58" selection-end-line="51" selection-end-column="58" />
+        <state relative-caret-position="945">
+          <caret line="63" column="24" lean-forward="true" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wizardordering/WizardOrderingSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="271" column="5" lean-forward="true" selection-start-line="271" selection-start-column="5" selection-end-line="271" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1775#1776#0" expanded="true" />
+            <element signature="e#1822#1823#0" expanded="true" />
+            <element signature="e#9201#9202#0" expanded="true" />
+            <element signature="e#9239#9240#0" expanded="true" />
           </folding>
         </state>
       </provider>
