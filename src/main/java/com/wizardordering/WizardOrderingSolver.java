@@ -168,6 +168,17 @@ public class WizardOrderingSolver {
                 int b = this.wizIdToName.inverse().get(st.nextToken());
                 int c = this.wizIdToName.inverse().get(st.nextToken());
 
+
+                // Ensures all three wizard names are unique.
+                Set<Integer> uniqueValues = new HashSet<>();
+                uniqueValues.add(a);
+                uniqueValues.add(b);
+                uniqueValues.add(c);
+
+                if (uniqueValues.size() != 3) {
+                    continue;
+                }
+
                 int a_c = getVariableIDbyWizard(a, c);
                 int b_c = getVariableIDbyWizard(b, c);
                 this.clausesByConstraints.add(new int[]{a_c, -1 * b_c});
