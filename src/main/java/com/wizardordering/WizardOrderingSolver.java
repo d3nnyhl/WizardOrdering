@@ -290,7 +290,7 @@ public class WizardOrderingSolver {
     /**
      * Given an assignment, returns the correct ordering of wizards,
      * i.e. if assignment = -1 with pair [A, B], then return [B, A] since age(A) > age(B).
-     * @param assignment
+     * @param assignment varID
      * @return int[] ordered pairing of wizards
      */
     private int[] generateOrderedWizardPair(int assignment) {
@@ -313,8 +313,8 @@ public class WizardOrderingSolver {
 
     /**
      * Given a Directed Acyclic Graph, returns a Topological ordering.
-     * @param dag
-     * @return Topological
+     * @param dag DAG
+     * @return Topological topological ordering
      */
     private Topological generateToplogicalOrdering(Digraph dag) {
         return new Topological(dag);
@@ -322,7 +322,7 @@ public class WizardOrderingSolver {
 
     /**
      * Given a Topological ordering, generates an ordering of wizard names.
-     * @param topo
+     * @param topo topological ordering
      */
     private void generateSolution(Topological topo) {
         if (!topo.hasOrder()) return;
@@ -391,9 +391,7 @@ public class WizardOrderingSolver {
                 System.out.println("Error closing writers.");
                 System.exit(-1);
             }
-
         }
-
     }
 
     /**
