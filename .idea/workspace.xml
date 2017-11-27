@@ -2,13 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57ea3eb3-0f44-42cd-b4a0-f0787ef07cb9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/org.ow2.sat4j.core-2.3.6-SNAPSHOT-javadoc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/org.ow2.sat4j.core-2.3.6-SNAPSHOT-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sat4j/org.ow2.sat4j.core-2.3.6-SNAPSHOT.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WizardOrdering/main/java/com/wizardordering/WizardOrderingSolver.class" afterPath="$PROJECT_DIR$/out/production/WizardOrdering/main/java/com/wizardordering/WizardOrderingSolver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/sat4j.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sat4j.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WizardOrdering/main/java/com/wizardordering/WizardOrderingSolver.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WizardOrdering/main/resources/Staff_Inputs/staff_100.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WizardOrdering/main/resources/Staff_Inputs/staff_120.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WizardOrdering/main/resources/Staff_Inputs/staff_140.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WizardOrdering/main/resources/Staff_Inputs/staff_160.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WizardOrdering/main/resources/Staff_Inputs/staff_180.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WizardOrdering/main/resources/Staff_Inputs/staff_60.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WizardOrdering/main/resources/Staff_Inputs/staff_80.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WizardOrdering/main/resources/Staff_outputs/staff_60.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WizardOrdering/main/resources/Staff_outputs/staff_80.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WizardOrdering/main/resources/phase2_outputs/output5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/Staff_Inputs/staff_100.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/Staff_Inputs/staff_120.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/Staff_Inputs/staff_140.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/Staff_Inputs/staff_160.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/Staff_Inputs/staff_180.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/Staff_Inputs/staff_60.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/Staff_Inputs/staff_80.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/Staff_outputs/staff_60.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/Staff_outputs/staff_80.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/phase2_inputs/inputs20/input5.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/phase2_outputs/output5.out" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WizardOrdering/main/java/com/wizardordering/WizardOrdering.class" afterPath="$PROJECT_DIR$/out/production/WizardOrdering/main/java/com/wizardordering/WizardOrdering.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wizardordering/WizardOrdering.java" afterPath="$PROJECT_DIR$/src/main/java/com/wizardordering/WizardOrdering.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wizardordering/WizardOrderingSolver.java" afterPath="$PROJECT_DIR$/src/main/java/com/wizardordering/WizardOrderingSolver.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +42,8 @@
       <file leaf-file-name="WizardOrdering.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wizardordering/WizardOrdering.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+            <state relative-caret-position="960">
+              <caret line="64" column="43" lean-forward="false" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,34 +54,15 @@
       <file leaf-file-name="WizardOrderingSolver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wizardordering/WizardOrderingSolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+            <state relative-caret-position="-117">
+              <caret line="246" column="38" lean-forward="true" selection-start-line="246" selection-start-column="38" selection-end-line="246" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1511757368628" expanded="true" signature="13606:14474" ph="{...}" />
-                <marker date="1511757368628" expanded="true" signature="14480:14597" ph="/**...*/" />
-                <marker date="1511757368628" expanded="true" signature="14650:14843" ph="{...}" />
+                <element signature="e#1914#1915#0" expanded="true" />
+                <element signature="e#1961#1962#0" expanded="true" />
+                <element signature="e#11897#11898#0" expanded="true" />
+                <element signature="e#11940#11941#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="staff_60.out" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Staff_outputs/staff_60.out">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="staff_80.out" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Staff_outputs/staff_80.out">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -70,8 +70,8 @@
       <file leaf-file-name="WizardVariable.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wizardordering/WizardVariable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+            <state relative-caret-position="405">
+              <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -161,6 +161,21 @@
               <item name="WizardOrdering" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WizardOrdering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WizardOrdering" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wizardordering" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WizardOrdering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WizardOrdering" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -169,24 +184,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="phase2_inputs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WizardOrdering" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WizardOrdering" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="phase2_inputs" type="462c0819:PsiDirectoryNode" />
-              <item name="inputs20" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WizardOrdering" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WizardOrdering" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="phase2_outputs" type="462c0819:PsiDirectoryNode" />
+              <item name="Staff_Inputs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WizardOrdering" type="b2602c69:ProjectViewProjectNode" />
@@ -482,28 +480,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="26" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wizardordering/WizardOrdering.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="63" lean-forward="false" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/phase2_inputs/inputs20/input20_0.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/SolverExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -517,9 +498,10 @@
           <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1511757368628" expanded="true" signature="13606:14474" ph="{...}" />
-            <marker date="1511757368628" expanded="true" signature="14480:14597" ph="/**...*/" />
-            <marker date="1511757368628" expanded="true" signature="14650:14843" ph="{...}" />
+            <element signature="e#1914#1915#0" expanded="true" />
+            <element signature="e#1961#1962#0" expanded="true" />
+            <element signature="e#11897#11898#0" expanded="true" />
+            <element signature="e#11940#11941#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -554,9 +536,10 @@
           <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1511757368628" expanded="true" signature="13606:14474" ph="{...}" />
-            <marker date="1511757368628" expanded="true" signature="14480:14597" ph="/**...*/" />
-            <marker date="1511757368628" expanded="true" signature="14650:14843" ph="{...}" />
+            <element signature="e#1914#1915#0" expanded="true" />
+            <element signature="e#1961#1962#0" expanded="true" />
+            <element signature="e#11897#11898#0" expanded="true" />
+            <element signature="e#11940#11941#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -694,9 +677,10 @@
           <caret line="241" column="5" lean-forward="true" selection-start-line="241" selection-start-column="5" selection-end-line="241" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1511757368628" expanded="true" signature="13606:14474" ph="{...}" />
-            <marker date="1511757368628" expanded="true" signature="14480:14597" ph="/**...*/" />
-            <marker date="1511757368628" expanded="true" signature="14650:14843" ph="{...}" />
+            <element signature="e#1914#1915#0" expanded="true" />
+            <element signature="e#1961#1962#0" expanded="true" />
+            <element signature="e#11897#11898#0" expanded="true" />
+            <element signature="e#11940#11941#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -731,9 +715,10 @@
           <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1511757368628" expanded="true" signature="13606:14474" ph="{...}" />
-            <marker date="1511757368628" expanded="true" signature="14480:14597" ph="/**...*/" />
-            <marker date="1511757368628" expanded="true" signature="14650:14843" ph="{...}" />
+            <element signature="e#1914#1915#0" expanded="true" />
+            <element signature="e#1961#1962#0" expanded="true" />
+            <element signature="e#11897#11898#0" expanded="true" />
+            <element signature="e#11940#11941#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -768,9 +753,10 @@
           <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1511757368628" expanded="true" signature="13606:14474" ph="{...}" />
-            <marker date="1511757368628" expanded="true" signature="14480:14597" ph="/**...*/" />
-            <marker date="1511757368628" expanded="true" signature="14650:14843" ph="{...}" />
+            <element signature="e#1914#1915#0" expanded="true" />
+            <element signature="e#1961#1962#0" expanded="true" />
+            <element signature="e#11897#11898#0" expanded="true" />
+            <element signature="e#11940#11941#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -845,24 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wizardordering/WizardVariable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wizardordering/WizardOrdering.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Staff_outputs/staff_80.out">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -881,15 +849,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/phase2_outputs/input20_0.out" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/phase2_outputs/input5.out" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Staff_outputs/staff_200.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Staff_outputs/staff_100.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wizardordering/WizardVariable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wizardordering/WizardOrderingSolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state relative-caret-position="-117">
+          <caret line="246" column="38" lean-forward="true" selection-start-line="246" selection-start-column="38" selection-end-line="246" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1511757368628" expanded="true" signature="13606:14474" ph="{...}" />
-            <marker date="1511757368628" expanded="true" signature="14480:14597" ph="/**...*/" />
-            <marker date="1511757368628" expanded="true" signature="14650:14843" ph="{...}" />
+            <element signature="e#1914#1915#0" expanded="true" />
+            <element signature="e#1961#1962#0" expanded="true" />
+            <element signature="e#11897#11898#0" expanded="true" />
+            <element signature="e#11940#11941#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wizardordering/WizardOrdering.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" column="43" lean-forward="false" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

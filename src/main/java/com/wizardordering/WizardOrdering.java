@@ -27,11 +27,23 @@ public class WizardOrdering {
 
     private static void solveAllStaff() {
         for (WizardOrderingSolver solver: staffInputSolvers) {
+            //solver.randomAssign();
             solver.preProcess();
             solver.run();
             solver.postProcess();
         }
     }
+
+    private static void solveStaff(String filename) {
+        for (WizardOrderingSolver solver: staffInputSolvers) {
+            if (solver.getFileName().equals(filename)) {
+                solver.preProcess();
+                solver.run();
+                solver.postProcess();
+            }
+        }
+    }
+
     private static void start() {
         File inputFilesFolder = new File(INPUT_FILES_PATH);
         File[] listOfSubFolders = inputFilesFolder.listFiles();
@@ -60,16 +72,22 @@ public class WizardOrdering {
     }
 
     private static boolean filterStaffInput(File inputFile) {
-        if (inputFile.getName().length() == 11) return true; // staff_60.in / staff_80.in
+        //if (inputFile.getName().length() == 11) return false; // staff_60.in / staff_80.in
 
         int firstNumber = Character.getNumericValue(inputFile.getName().charAt(6));
-        return firstNumber < 2;
+        return inputFile.getName().length() == 12 && firstNumber >= 2;
     }
 
     public static void main (String[] args) {
-        start();
-        solveAll();
+        // Change filename to run one file at a time.
+        String filename = "staff_200.in";
+        // No need to run the following two lines; already solved student inputs.
+        //start();
+        //solveAll();
         startStaffFiles();
-        solveAllStaff();
+
+        // Run this one file corresponding to filename.
+        solveStaff(filename);
+        //solveAllStaff();
     }
 }

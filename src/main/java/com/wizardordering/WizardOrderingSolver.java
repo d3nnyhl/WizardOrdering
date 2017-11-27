@@ -12,7 +12,6 @@ import org.sat4j.specs.ContradictionException;
 import org.sat4j.specs.IProblem;
 import org.sat4j.specs.ISolver;
 import org.sat4j.specs.TimeoutException;
-import scala.Int;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -30,7 +29,6 @@ public class WizardOrderingSolver {
     private BiMap<Integer, List<Integer>> varIdToWizID;
     private ISolver solver;
     private File inputFile;
-    private String outFileName;
     private Set<String> wizardSet;
     private List<int[]> clausesByConstraints;
     private List<int[]> clausesByImplication;
@@ -243,6 +241,7 @@ public class WizardOrderingSolver {
     public void run() {
         try {
             Stopwatch watch = new Stopwatch();
+            System.out.println("Now running " + this.getFileName());
             addAllClauses();
 
             IProblem problem = solver;
@@ -346,6 +345,38 @@ public class WizardOrderingSolver {
             String wizard = this.wizIdToName.get(iter.next() + 1);
             this.solution[i] = wizard;
             i++;
+        }
+    }
+
+    /**
+     * Return the assignment established by adding wizard names to a set.
+     */
+    public void randomAssign() {
+        try {
+            BufferedReader buf = new BufferedReader(new FileReader(this.inputFile));
+
+            // Read number of wizards and constraints respectively.
+            int numWizards = Integer.parseInt(buf.readLine().trim());
+            this.numConstraints = Integer.parseInt(buf.readLine().trim());
+
+
+            for (int i = 0; i < numConstraints; i++) {
+                StringTokenizer st = new StringTokenizer(buf.readLine());
+                while (st.hasMoreTokens()) {
+                    wizardSet.add(st.nextToken());
+                    if (wizardSet.size() == numWizards)
+                        break;
+                }
+            }
+            this.solution = new String[wizardSet.size()];
+            int i = 0;
+            for (String name: wizardSet) {
+                this.solution[i++] = name;
+            }
+
+            this.outputSolutionToFile();
+        } catch (IOException e) {
+            System.exit(-2);
         }
     }
 
