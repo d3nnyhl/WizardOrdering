@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="file://$PROJECT_DIR$/lib/sat4j" />
     </CLASSES>
-    <JAVADOC>
-      <root url="file://$PROJECT_DIR$/lib/sat4j/apidocs" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="file://$PROJECT_DIR$/lib/sat4j" />
     </SOURCES>

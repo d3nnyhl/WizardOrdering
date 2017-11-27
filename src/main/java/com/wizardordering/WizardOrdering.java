@@ -63,7 +63,7 @@ public class WizardOrdering {
         if (inputFile.getName().length() == 11) return true; // staff_60.in / staff_80.in
 
         int firstNumber = Character.getNumericValue(inputFile.getName().charAt(6));
-        return firstNumber < 1;
+        return firstNumber < 2;
     }
 
     public static void main (String[] args) {
