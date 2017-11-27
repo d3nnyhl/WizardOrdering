@@ -52,11 +52,20 @@ public class WizardOrdering {
         File[] listOfFiles = inputFilesFolder.listFiles();
         for (File inputFile : listOfFiles) {
             String fileName = inputFile.getName();
-            if (inputFile.isFile() && fileName.endsWith(INPUT_FILE_EXTENSION)) {
+            if (inputFile.isFile() && fileName.endsWith(INPUT_FILE_EXTENSION)
+                    && filterStaffInput(inputFile)) {
                 staffInputSolvers.add(new WizardOrderingSolver(inputFile));
             }
         }
     }
+
+    private static boolean filterStaffInput(File inputFile) {
+        if (inputFile.getName().length() == 11) return true; // staff_60.in / staff_80.in
+
+        int firstNumber = Character.getNumericValue(inputFile.getName().charAt(6));
+        return firstNumber < 2;
+    }
+
     public static void main (String[] args) {
         start();
         solveAll();
