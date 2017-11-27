@@ -15,8 +15,10 @@ import org.sat4j.specs.TimeoutException;
 import scala.Int;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
 
@@ -254,6 +256,7 @@ public class WizardOrderingSolver {
         Topological topo = this.generateToplogicalOrdering(dag);
         this.generateSolution(topo);
         this.printStatistics();
+        this.outputSolutionToFile();
     }
 
     public void printAssignments() {
@@ -346,5 +349,62 @@ public class WizardOrderingSolver {
         System.out.println("Number of clauses by implication: " + this.clausesByImplication.size());
         printAssignments();
         System.out.println("Running time: " + this.elapsedTime + "s\n");
+    }
+
+    /**
+     * Outputs solution to file.
+     */
+    public void outputSolutionToFile() {
+        FileWriter fileWriter = null;
+        BufferedWriter bufferedWriter = null;
+        StringBuilder sbFile = new StringBuilder("./src/main/resources/");
+
+        if (this.inputFile.getName().substring(0, 5).equals("staff")) {
+            sbFile.append("Staff_outputs/");
+        } else {
+            sbFile.append("phase2_outputs/");
+        }
+
+        sbFile.append(removeExtension(this.inputFile.getName()));
+        sbFile.append(".out");
+
+        try {
+            fileWriter = new FileWriter(sbFile.toString());
+            bufferedWriter = new BufferedWriter(fileWriter);
+
+            StringBuilder sb = new StringBuilder();
+
+            for (String wizard : this.solution) {
+                sb.append(wizard);
+                sb.append(" ");
+            }
+
+            bufferedWriter.write(sb.toString().trim());
+        } catch (IOException e) {
+            System.out.println("Error writing wizard names.");
+            System.exit(-1);
+        } finally {
+            try {
+                if (bufferedWriter != null) bufferedWriter.close();
+                if (fileWriter != null) fileWriter.close();
+            } catch (IOException ex) {
+                System.out.println("Error closing writers.");
+                System.exit(-1);
+            }
+
+        }
+
+    }
+
+    /**
+     * Removes the extension from a given filename.
+     * @param filename filename
+     * @return String
+     */
+    private String removeExtension(String filename) {
+        if (filename == null) return null;
+        int dotIndex = filename.lastIndexOf(".");
+        if (dotIndex == -1) return filename;
+        return filename.substring(0, dotIndex);
     }
 }
