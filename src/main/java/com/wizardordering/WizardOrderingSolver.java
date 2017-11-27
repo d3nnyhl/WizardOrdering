@@ -325,7 +325,7 @@ public class WizardOrderingSolver {
     /**
      * Given a Directed Acyclic Graph, returns a Topological ordering.
      * @param dag DAG
-     * @return Topological topological ordering
+     * @return Topological
      */
     private Topological generateToplogicalOrdering(Digraph dag) {
         return new Topological(dag);
