@@ -376,7 +376,7 @@ public class WizardOrderingSolver {
             sbFile.append("phase2_outputs/");
         }
 
-        sbFile.append(removeExtension(this.inputFile.getName()));
+        sbFile.append(removeExtension(this.inputFile.getName()).replaceAll("in", "out"));
         sbFile.append(".out");
 
         try {
