@@ -15,6 +15,9 @@ public class WizardOrdering {
     private static List<WizardOrderingSolver> solvers = new ArrayList<>();
     private static List<WizardOrderingSolver> staffInputSolvers =  new ArrayList<>();
 
+    /**
+     * Runs the WizardOrderingSolver instances for Phase II input files.
+     */
     private static void solveAll() {
         Stopwatch watch = new Stopwatch();
         for (WizardOrderingSolver solver: solvers) {
@@ -25,6 +28,9 @@ public class WizardOrdering {
         System.out.println("All files solved in: " + watch.elapsedTime() + " s\n");
     }
 
+    /**
+     * Runs the WizardOrderingSolver instances for staff input files.
+     */
     private static void solveAllStaff() {
         for (WizardOrderingSolver solver: staffInputSolvers) {
             //solver.randomAssign();
@@ -34,6 +40,11 @@ public class WizardOrdering {
         }
     }
 
+
+    /**
+     * Only used to solve one of the staff files at a time.
+     * @param filename
+     */
     private static void solveStaff(String filename) {
         for (WizardOrderingSolver solver: staffInputSolvers) {
             if (solver.getFileName().equals(filename)) {
@@ -43,7 +54,9 @@ public class WizardOrdering {
             }
         }
     }
-
+    /**
+     * Initializes WizardOrderingSolver instances for each of the assigned Phase II input files.
+     */
     private static void start() {
         File inputFilesFolder = new File(INPUT_FILES_PATH);
         File[] listOfSubFolders = inputFilesFolder.listFiles();
@@ -59,6 +72,9 @@ public class WizardOrdering {
         }
     }
 
+    /**
+     * Initializes WizardOrderingSolver instances for each of the staff input files.
+     */
     private static void startStaffFiles() {
         File inputFilesFolder = new File(STAFF_INPUT_PATH);
         File[] listOfFiles = inputFilesFolder.listFiles();
@@ -71,23 +87,26 @@ public class WizardOrdering {
         }
     }
 
+    /**
+     * Determines if inputFile is one of the files that can be currently solved.
+     * @param inputFile
+     * @return true if the number of wizards is 180 or fewer and false otherwise.
+     */
     private static boolean filterStaffInput(File inputFile) {
-        //if (inputFile.getName().length() == 11) return false; // staff_60.in / staff_80.in
+        if (inputFile.getName().length() == 11) return true; // staff_60.in / staff_80.in
 
         int firstNumber = Character.getNumericValue(inputFile.getName().charAt(6));
-        return inputFile.getName().length() == 12 && firstNumber >= 2;
+        return firstNumber < 2;
     }
 
+    /**
+     * Main driver. Just run this.
+     * @param args
+     */
     public static void main (String[] args) {
-        // Change filename to run one file at a time.
-        String filename = "staff_200.in";
-        // No need to run the following two lines; already solved student inputs.
-        //start();
-        //solveAll();
+        start();
+        solveAll();
         startStaffFiles();
-
-        // Run this one file corresponding to filename.
-        solveStaff(filename);
-        //solveAllStaff();
+        solveAllStaff();
     }
 }

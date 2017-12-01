@@ -25,7 +25,6 @@ public class WizardOrderingSolver {
     // Bi-directional mapping between a wizard ID (int) and a wizard name (String).
     private BiMap<Integer, String> wizIdToName;
     // Bi-directional mapping between a variable ID (int) and pair of Wizard IDs.
-    //private BiMap<Integer, WizardVariable> varIdToVar;
     private BiMap<Integer, List<Integer>> varIdToWizID;
     private ISolver solver;
     private File inputFile;
@@ -350,6 +349,7 @@ public class WizardOrderingSolver {
 
     /**
      * Return the assignment established by adding wizard names to a set.
+     * Not used.
      */
     public void randomAssign() {
         try {
@@ -384,6 +384,7 @@ public class WizardOrderingSolver {
      * Prints useful statistics.
      */
     public void printStatistics() {
+        System.out.println("******** STATISTICS **********");
         System.out.println("File name: " + this.inputFile.getName());
         System.out.println("Number of wizards: " + this.wizardSet.size());
         System.out.println("Number of variables: " + this.varIdToWizID.size());
