@@ -30,14 +30,14 @@ If you need to run a particular staff input, please follow comments in the main 
 
 ## Libraries Used
 
-* Google Guava - https://github.com/google/guava
-* Princeton's Algorithms Library - https://github.com/kevin-wayne/algs4
-* SAT4J Solver - https://gitlab.ow2.org/sat4j/sat4j
+* [Google Guava](https://github.com/google/guava) - Used for their bi-directional mapping.
+* [Princeton's Algorithms Library](https://github.com/kevin-wayne/algs4) - Used for post-processing methods (Directed Graphs and Topological Sorting).
+* [SAT4J Solver](https://gitlab.ow2.org/sat4j/sat4j) - SAT Solver used to solve our reduction from Wizard Ordering to 3-SAT.
 
 ## Authors
-* Kyung Geun Kim
-* Yoon Kim
-* Denny Hung
+* [Kyung Geun Kim](https://github.com/kyung4952)
+* [Yoon Kim](https://github.com/ynnkim)
+* [Denny Hung](https://github.com/d3nnyhl)
 
 ## Acknowledgements
 * Course: CS 170 Fall 2017 Efficient Algorithms and Intractable Problems
