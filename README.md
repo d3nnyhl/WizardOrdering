@@ -30,7 +30,7 @@ If you need to run a particular staff input, please follow comments in the main 
 ## Libraries Used
 
 * Google Guava - https://github.com/google/guava
-* Princeton's Algorithm Library - https://github.com/kevin-wayne/algs4
+* Princeton's Algorithms Library - https://github.com/kevin-wayne/algs4
 * SAT4J Solver - https://gitlab.ow2.org/sat4j/sat4j
 
 ## Authors
