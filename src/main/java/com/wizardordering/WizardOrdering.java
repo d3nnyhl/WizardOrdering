@@ -104,10 +104,11 @@ public class WizardOrdering {
      * @param args
      */
     public static void main (String[] args) {
-        start();
-        solveAll();
-        startStaffFiles(); // Please comment out this line and uncomment next line if want to run a single staff file.
-        //solveStaff("staff_XXX.in");  //Replace XXX with the number in the staff file if only want to run a single staff file.
-        solveAllStaff();
+        //start();
+        //solveAll();
+        startStaffFiles();
+        //solveAllStaff(); // Please comment out this line and uncomment next line if want to run a single staff file.
+        solveStaff("staff_80.in");  //Replace XXX with the number in the staff file if only want to run a single staff file.
+
     }
 }
