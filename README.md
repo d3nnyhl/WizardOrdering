@@ -11,7 +11,7 @@ How to run the solver?
     b. Click "Open".
 
     c. Select the root directory of this project.
-```
+
 2. Ensure all dependencies are correctly set up.
 
     a. Go to File > Project Structure > Project Settings > Libraries.
@@ -27,6 +27,8 @@ Their corresponding output files are located in "./src/resources/phase2_outputs/
 5. To run the program on all the files we've solved so far, simply run the main method located in "./src/main/java/com/wizardordering/WizardOrdering.java".
 The expected running time of the largest file we've solved "staff_180.in" is around ~100 minutes, thus expect the program to take up to two hours.
 If you need to run a particular staff input, please follow comments in the main method.
+
+```
 
 ## Libraries Used
 
