@@ -3,7 +3,7 @@
 ## FAQ
 
 How to run the solver?
-
+```
 1. Open the project using IntelliJ IDEA.
 
     a. Start IntelliJ IDEA.
@@ -11,7 +11,7 @@ How to run the solver?
     b. Click "Open".
 
     c. Select the root directory of this project.
-
+```
 2. Ensure all dependencies are correctly set up.
 
     a. Go to File > Project Structure > Project Settings > Libraries.
@@ -44,4 +44,4 @@ If you need to run a particular staff input, please follow comments in the main 
 * Professors Prasad Raghavendra and Sanjam Garg, and the course staff.
 * Google's Guava team for developing Guava
 * Professors Joshua Hug, Robert Sedgewick, and Kevin Wayne for making the Princeton library accessible.
-* SAT4J development team. Check their work at http://www.sat4j.org/
+* SAT4J development team. Check their work [here](http://www.sat4j.org/)
