@@ -16,10 +16,7 @@ How to run the solver?
 
     a. Go to File > Project Structure > Project Settings > Libraries.
 
-    b. Make sure "guava", "javalib", and "sat4j" have been added.
-
-        i. If any library is missing, add them by clicking the '+' sign, followed by Java, and select the corresponding folder
-        inside the "./lib/*" subdirectory.
+    b. Make sure "guava", "javalib", and "sat4j" have been added. If any library is missing, add them by clicking the '+' sign, followed by Java, and select the corresponding folder inside the "./lib/*" subdirectory.
 
 3. The phase II input files are located in "./src/resources/phase2_inputs/inputsXX/" where XX = 20, 35 or 50 depending on the nuber of wizards.
 Their corresponding output files are located in "./src/resources/phase2_outputs/".
@@ -31,9 +28,9 @@ The expected running time of the largest file we've solved "staff_180.in" is aro
 If you need to run a particular staff input, please follow comments in the main method.
 
 ## Authors
-Kyung Geun Kim
-Yoon Kim
-Denny Hung
+* Kyung Geun Kim
+* Yoon Kim
+* Denny Hung
 
 ## Acknowledgements
 * Course: CS 170 Fall 2017 Efficient Algorithms and Intractable Problems
