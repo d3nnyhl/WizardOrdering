@@ -1,4 +1,12 @@
-# Project: Wizard Ordering
+# Project: [Wizard Ordering](https://d1b10bmlvqabco.cloudfront.net/attach/j5vqc3j229b6u7/hzpndq5jv06214/j9lmr5b0mnxk/170_Project.pdf)
+
+## Description
+
+You are at another wizard party hosted by Prasad and Sanjam. As usual, wizards are shy about discussing
+their age. From conversations at the party, you are only given information in the following form: some
+wizard’s age is not between the ages of two other wizards. Since wizard parties are also notoriously long
+(an entire month!), you decide to use your time at the party to write a solver and figure out the true ordering
+of wizards by their ages.
 
 ## FAQ
 
