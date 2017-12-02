@@ -12,13 +12,19 @@ Denny Hung
 How to run the solver?
 
 (1) Open the project using IntelliJ IDEA.
+
     a. Start IntelliJ IDEA.
+
     b. Click "Open".
+
     c. Select the root directory of this project.
 
 (2) Ensure all dependencies are correctly set up.
+
     a. Go to File > Project Structure > Project Settings > Libraries.
+
     b. Make sure "guava", "javalib", and "sat4j" have been added.
+
         i. If any library is missing, add them by clicking the '+' sign, followed by Java, and select the corresponding folder
         inside the "./lib/*" subdirectory.
 
